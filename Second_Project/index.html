@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <title>Page slider</title>
+</head>
+
+<body>
+  <div class="spinner-wrapper">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+  <div class="buttons">
+    
+  </div>
+  <div class="wrapper">
+    <header style="background-image: url('img/work.jpg')">
+      <div class="header-container">
+        <div class="header-container-left">
+          <div class="logo">
+            <div class="top-lines">
+              <div class="top-line-left"></div>
+              <div class="top-line-right"></div>
+            </div>
+            <h1>ELINGUAGE</h1>
+            <div class="bottom-lines">
+              <div class="bottom-line-left"></div>
+              <div class="bottom-line-right"></div>
+            </div>
+          </div>
+          <div class="tagline">
+            <p>Talk to people artificial language</p>
+          </div>
+        </div>
+        <div class="header-container-right">
+          <div class="header-right-content-wrapper">
+            <div class="sign-in-up-chose">
+              <input type="radio" id="sign-up-input" name="login" checked>
+              <label for="sign-up-input" onclick="change_window(1)">Join us</label>
+              <input type="radio" id="sign-in-input" name="login">
+              <label for="sign-in-input" onclick="change_window()">Sign in</label>
+            </div>
+            <form id="sign-up">
+              <div class="form-top-container">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="e-mail-reg" name="e-mail-reg" placeholder="E-mail">
+                <input type="password" id="password-reg" name="password-reg" placeholder="Password">
+                <p>If you're the celebrity, enter the code to create a language</p>
+                <input type="text" id="code" name="code" placeholder="Code">
+              </div>
+              <div class="form-bot-container">
+                <input type="button" value="Register now">
+              </div>
+            </form>
+            <form id="sign-in">
+              <div class="form-top-container">
+                <input type="text" id="e-mail-log" name="e-mail-log" placeholder="E-mail">
+                <input type="password" id="password-log" name="password-log" placeholder="Password">
+              </div>
+              <div class="form-bot-container">
+                <input type="button" value="Login">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="main-title">
+          <p>What is Enliguage?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusamus expedita numquam, sapiente esse veniam veritatis doloremque sit odit accusantium.</p>
+        </div>
+        <div class="main-advantages">
+          <p>How it works?</p>
+          <div class="about-advantages">
+            <div class="advantage start-advantage">
+              <div class="advantages-img advantages-img-img_one"></div>
+              <p>Start</p>
+              <p>Lorem ipsum dolor.</p>
+            </div>
+            <div class="advantage translate-advantage">
+              <div class="advantages-img advantages-img-img_two"></div>
+              <p>Translate</p>
+              <p>Lorem ipsum dolor sit amet, consectetur elit. Hic, aliquam.</p>
+            </div>
+            <div class="advantage share-advantage">
+              <div class="advantages-img advantages-img-img_three"></div>
+              <p>Share</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis placeat sunt.</p>
+            </div>
+            <div class="advantage create-advantage">
+              <div class="advantages-img advantages-img-img_four"></div>
+              <p>Create</p>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-container-left">
+          <div class="logo">
+            <div class="top-lines">
+              <div class="top-line-left"></div>
+              <div class="top-line-right"></div>
+            </div>
+            <h1>ELINGUAGE</h1>
+            <div class="bottom-lines">
+              <div class="bottom-line-left"></div>
+              <div class="bottom-line-right"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-container-right">
+          <p>Connect with us</p>
+          <a href="mailto:support@elinguage.com">support@elinguage.com</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/libs.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+</body>
+
+</html>
